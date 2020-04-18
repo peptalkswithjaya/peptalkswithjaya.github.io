@@ -21,7 +21,11 @@
   </head>
   <body>
     <header class="page-header" role="banner">
-      Manish Joshi
+      <ul>
+         {% for page in site.pages %}
+            <li><a href="{{ page.url }}">{{ page }}</a></li>
+         {% endfor %}
+      </ul>
     </header>
 
     <main id="content" class="main-content" role="main">
