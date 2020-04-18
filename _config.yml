@@ -8,4 +8,4 @@ defaults:
 collections:
   menu:
     output: true
-    permalink: /
+    #permalink: /
