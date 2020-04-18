@@ -5,24 +5,29 @@
 
 @media screen and (min-width: 64em) {
     .page-header,.main-content {
-        padding: 5rem 6rem;
+        padding: 0 6rem;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header,.main-content {
-        padding: 3rem 4rem;
+        padding: 0 4rem;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 42em) {
     .page-header,.main-content {
-        padding: 2rem 1rem;
+        padding: 0 1rem;
+        margin: 0;
     }
 }
 
 .page-menu {
     list-style-type: none;
+    overflow: hidden;
+    padding: 0;
 }
 .page-menu li {
     float: left;
