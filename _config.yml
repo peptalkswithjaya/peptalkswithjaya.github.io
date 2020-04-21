@@ -5,6 +5,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "fragments"
+    values:
+      layout: "default"
 collections:
   menu:
     output: true
