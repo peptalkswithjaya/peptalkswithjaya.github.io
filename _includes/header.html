@@ -5,6 +5,7 @@
     </div>
     <ul class="page-menu">
         <li><a href="/">Home</a></li>
+        {{ site }}
         {% for page in site.menu %}
         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
