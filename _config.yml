@@ -9,3 +9,5 @@ collections:
   menu:
     output: true
     permalink: /:name
+  fragments:
+    output: false
