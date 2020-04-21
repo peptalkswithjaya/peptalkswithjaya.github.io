@@ -27,3 +27,15 @@
     padding: 1em;
     text-decoration: none;
 }
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-business-header {
+    background-image: url(/assets/img/business-header.jpg);
+    min-height: 100%;
+}
