@@ -4,14 +4,16 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
     margin: 0;
-    background-color: #F1F8E9;
+    display: flex;
+    background: #F1F8E9;
 }
 .page-header-anchor {
-    background-color: #689F38;
+    background-color: #8BC34A;
     color: #F1F8E9;
+    padding: 2em;
 }
 .main-content {
     padding-top: 0;
@@ -23,6 +25,7 @@
     list-style-type: none;
     overflow: hidden;
     padding: 0;
+    color: #558B2F;
 }
 .page-menu li {
     float: left;
