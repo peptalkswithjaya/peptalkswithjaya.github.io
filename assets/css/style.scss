@@ -40,28 +40,6 @@
     text-decoration: none;
 }
 
-
-@media screen and (min-width: 64em) {
-    .parallax-inner {
-        width: 32em;
-        left: 6em;
-    }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-    .parallax-inner {
-        width: 50%;
-        left: 4em;
-    }
-}
-
-@media screen and (max-width: 42em) {
-    .parallax-inner {
-        width: 100%;
-        left: 1em;
-    }
-}
-
 .parallax {
     background-attachment: fixed;
     background-position: center;
@@ -73,7 +51,8 @@
     position: absolute;
     height: 100%;
     background-color: rgba(#FFFFFF, .5);
-    width: 400px;
+    max-width: 24em;
+    width: 100%;
     left: 6em;
 }
 
