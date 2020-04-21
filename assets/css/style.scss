@@ -7,6 +7,11 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0;
+    background-color: #F1F8E9;
+}
+.page-header-anchor {
+    background-color: #689F38;
+    color: #F1F8E9;
 }
 .main-content {
     padding-top: 0;
@@ -38,7 +43,7 @@
 .parallax-inner {
     position: absolute;
     height: 100%;
-    background-color: rgba(#ffffff, .5);
+    background-color: rgba(#DCEDC8, .5);
     width: 400px;
     left: 6em;
 }
