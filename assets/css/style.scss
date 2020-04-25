@@ -79,3 +79,17 @@
     background-image: url(/assets/img/green-curves.jpg);
     min-height: 500px;
 }
+.bg-footer-wood {
+    background-image: url(/assets/img/footer-wood.webp);
+    min-height: 250px;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2em;
+    row-gap: 2em;
+}
+.post-grid-item {
+    padding: 1em;
+}
