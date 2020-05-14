@@ -1,5 +1,5 @@
 ---
-title: Success: Make it happen
+title: 'Success: Make it happen'
 ---
 We all have dreams to fulfil, goals to achieve. While working towards them, we face both success as well as failures. Some people give up and quit due to fear of failure while some use their failure as stepping stones and learnings for success. Its all about our attitude towards these situations. Its our attitude that decides how far we will go. So what is the correct attitude for success? The correct attitude is a mix of five basic principles that needs to be followed religiously.
 
