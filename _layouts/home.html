@@ -3,20 +3,18 @@
 
 {% include head.html %}
 
-<body>
+<body class="demo-layout-waterfall mdl-layout mdl-js-layout">
     {% include header.html %}
 
-    <div class="parallax bg-green-curves">
-        <div class="parallax-inner">
-            {{ content }}
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            {% for fragment in site.fragments %}
+            {{ fragment.content }}
+            {% endfor %}
         </div>
-    </div>
-    <main id="content" class="main-content" role="main">
-        {% for fragment in site.fragments %}
-        {{ fragment.content }}
-        {% endfor %}
     </main>
     {% include footer.html %}
+
 </body>
 
 </html>

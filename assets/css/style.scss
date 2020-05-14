@@ -1,95 +1,18 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-.page-header {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 0;
-    display: flex;
-    background: #F1F8E9;
-}
-.page-header-anchor {
-    background-color: #8BC34A;
-    color: #558B2F;
-    padding: 1em;
-}
-.page-header-anchor h2 {
-    color: #F1F8E9;
-    margin: 0;
-}
-.main-content {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 0;
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+    padding-right: 0;
 }
 
-.page-menu {
-    list-style-type: none;
-    overflow: hidden;
-    padding: 0;
+.demo-card-wide.mdl-card {
+    width: 512px;
 }
-.page-menu li {
-    float: left;
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('/assets/img/welcome_card.jpg') center / cover;
 }
-.page-menu a {
-    float: left;
-    padding: 1em;
-    text-decoration: none;
-    color: #558B2F;
-}
-
-.parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.parallax-inner {
-    position: absolute;
-    height: 100%;
-    background-color: rgba(#FFFFFF, .5);
-    max-width: 24em;
-    width: 100%;
-    padding: 2em;
-}
-@media screen and (min-width: 64em) {
-    .parallax-inner {
-        left: 6em;
-    }
-}
-@media screen and (min-width: 42em) and (max-width: 64em) {
-    .parallax-inner {
-        left: 4em;
-    }
-}
-@media screen and (max-width: 42em) {
-    .parallax-inner {
-        left: 1em;
-    }
-}
-
-.bg-business-header {
-    background-image: url(/assets/img/business-header.jpg);
-    min-height: 500px;
-}
-.bg-green-curves {
-    background-image: url(/assets/img/green-curves.jpg);
-    min-height: 500px;
-}
-.bg-footer-wood {
-    background-image: url(/assets/img/footer-wood.webp);
-    min-height: 250px;
-}
-
-.post-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 2em;
-    row-gap: 2em;
-}
-.post-grid-item {
-    padding: 1em;
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
 }
