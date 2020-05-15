@@ -8,6 +8,10 @@
 .demo-sidebar {
     background: url('/assets/img/sidebar-building.jpg') center / cover;
 }
+.demo-title {
+    display: flex;
+    flex-direction: column;
+}
 
 /* For blog.html */
 .demo-card-wide > .mdl-card__title {
