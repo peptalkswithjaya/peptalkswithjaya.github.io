@@ -8,10 +8,13 @@
         {% include header.html %}
 
         <main class="mdl-layout__content">
-            <div class="page-content">
-                {% for fragment in site.fragments %}
-                {{ fragment.content }}
-                {% endfor %}
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="page-content mdl-cell mdl-cell--8-col">
+                    {% for fragment in site.fragments %}
+                    {{ fragment.content }}
+                    {% endfor %}
+                </div>
             </div>
         </main>
         {% include footer.html %}
