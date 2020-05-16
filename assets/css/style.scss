@@ -1,6 +1,27 @@
 ---
 ---
 
+/* Common styles */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg-business-header {
+    background-image: url(/assets/img/business-header.jpg);
+    min-height: 500px;
+}
+.bg-green-curves {
+    background-image: url(/assets/img/green-curves.jpg);
+    min-height: 500px;
+}
+.bg-footer-wood {
+    background-image: url(/assets/img/footer-wood.webp);
+    min-height: 250px;
+}
+
 /* For header.html */
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
     padding-right: 0;
