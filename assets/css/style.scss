@@ -1,6 +1,11 @@
 ---
 ---
 
+/* Standard styles */
+a {
+    text-decoration: none;
+}
+
 /* Common styles */
 .parallax {
     background-attachment: fixed;
@@ -38,6 +43,9 @@
     /*display: flex;
     flex-direction: column;*/
     color: white;
+}
+.demo-title a {
+    color: inherit;
 }
 
 /* For blog.html */
