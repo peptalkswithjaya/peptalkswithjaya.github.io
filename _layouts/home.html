@@ -9,7 +9,12 @@
 
         <main class="mdl-layout__content">
             <div class="parallax bg-green-curves">
-                {{ content }}
+                <div class="parallax-inner mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--8-col">
+                        <span class="mdl-typography--headline">{{ content }}</span>
+                    </div>
+                </div>
             </div>
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
