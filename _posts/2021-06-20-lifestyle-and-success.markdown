@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Lifestyle and success"
+date:   2021-06-20 19:17:29 +0530
+#categories: jekyll update
+banner: "pexels-photo-937481.jpeg"
+---
+Success is personal to every individual, for some it is well-being, for some its the riches, for some it might be lordship or a title.  The theory of success varies from person to person.  Hence, there cannot be a universal formula that applies to everyone, but certain lifestyle practices works equally well for everyone. Success doesn’t come without a hitch. It requires a bunch of consistent efforts along with a few commitments to self. These myriad of small steps form success. These steps can be as small as getting out of bed a little early to signing big deals. A little change in our lifestyle can generate great outputs. By rising up early in the morning, you are already two steps ahead of the rest of world. Whither on one side the world is still sleeping and dreaming; you have already started your day and with that you’ve sown the seeds of your success soaked in dreams and goals. That means getting up early gives you two extra hours and if utilised properly, those two hours can reap you blooms of success. Well, if all we need is two extra hours a day, why do we need to wake up early? why can’t we use the late hours of the day when our jobs can also be done by staying up till late night? Well, because the hours just after we wake up are the most productive ones and the competency of our brains is at its peak in the morning hours. To have a productive mind in the morning it is important to have a fully charged up mind, charged up by a sufficient amount of sleep. Our lifestyle contributes a lot in shaping our destiny.
