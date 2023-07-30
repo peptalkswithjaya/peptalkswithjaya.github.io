@@ -1,4 +1,5 @@
 .post-grid {
+    --white: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     row-gap: 2em;
@@ -19,6 +20,7 @@
 
 .post-card-content {
     padding: 2em;
+    background-color: var(--white);
 }
 
 .post-card-excerpt {
@@ -33,4 +35,39 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.hero {
+    --white: #fff;
+    --dark: #111;
+    height: 40em;
+    padding-block: 10em;
+    margin-top: -5em;
+    margin-bottom: -25em;
+    color: var(--white);
+    background-color: var(--dark);
+    z-index: -1;
+}
+
+.hero-inner {
+    max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-inner h1 {
+    font-family: "Mulish",Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 0;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+header a {
+    --white: #fff;
+    color: var(--white) !important;
+}
+
+header {
+    border: 0 !important;
 }

@@ -3,3 +3,27 @@
     height: 100%;
     object-fit: cover;
 }
+
+blockquote {
+    --brand-color: #00A69f;
+    --color: #111;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2em;
+    border: none;
+    color: var(--color);
+}
+
+blockquote > p {
+    margin-top: -2em;
+}
+
+blockquote::before {
+    content: "“";
+    font-family: "Mulish",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 4em;
+    font-style: normal;
+    line-height: 0;
+    color: var(--brand-color);
+}

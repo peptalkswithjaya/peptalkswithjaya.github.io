@@ -1,8 +1,6 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /about/
-banner: "avatar.png"
 ---
-# Published by Dr. Jaya Sharma
-I am a Certified Wellness Coach who believes in learning and growing through sharing knowledge.
+Hi there! I’m Dr. Jaya Sharma, a Certified Wellness Coach who believes in learning and growing through sharing knowledge.
